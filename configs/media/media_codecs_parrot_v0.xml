@@ -282,7 +282,6 @@
     <Encoders>
         <!-- C2 encoders -->
         <MediaCodec name="c2.qti.avc.encoder" type="video/avc">
-            <Alias name="OMX.qcom.video.encoder.avc"/>
             <Limit name="size" min="128x128" max="4096x2176" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
@@ -302,7 +301,6 @@
             <Limit name="performance-point-4096x2176" value="30" />
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.encoder" type="video/hevc">
-            <Alias name="OMX.qcom.video.encoder.hevc"/>
             <Limit name="size" min="128x128" max="4096x2176" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
@@ -322,7 +320,6 @@
             <Limit name="performance-point-4096x2176" value="30" />
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.encoder.cq" type="video/hevc">
-            <Alias name="OMX.qcom.video.encoder.hevc.cq"/>
             <Limit name="size" min="128x128" max="512x512" />
             <Limit name="alignment" value="2x2" />
             <Limit name="block-size" value="16x16" />
