@@ -174,6 +174,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdisplayconfig.system.qti \
     vendor.display.config@1.11.vendor \
+    vendor.qti.hardware.display.config-V5-ndk \
     vendor.qti.hardware.display.config-V2-ndk_platform.vendor \
     vendor.qti.hardware.display.mapper@2.0.vendor
 
@@ -317,6 +318,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 PRODUCT_PACKAGES += \
+    libavservices_minijail \
     libavservices_minijail_vendor
 
 PRODUCT_COPY_FILES += \
