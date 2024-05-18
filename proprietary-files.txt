@@ -1372,8 +1372,10 @@ vendor/etc/mdss_dsi_n16_41_02_0c_dsc_vid_mi.xml
 vendor/etc/mdss_dsi_n16_42_02_0b_dsc_vid_mi.xml
 
 # Display HDR - from eqs T1SQS33.15-11-137-10-2
+vendor/lib/libgame_enhance.so|01d389b40f5296c7bb5b19695e24edba5252bd15
 vendor/lib/libhdr_backlight_adapter.so|27a76877b0ef7c090c469b3784bce9d2ecc857d8
 vendor/lib/libhdr_tm.so|26f4e9235982e677383510572cd0d3fb6e146da2
+vendor/lib64/libgame_enhance.so|4432e47d990e98edb141becc345a92d03df26bf4
 vendor/lib64/libhdr_backlight_adapter.so|57036c19938fe40e73e9b9e3d4c6a6073d7aa858
 vendor/lib64/libhdr_tm.so|b5bc48b34450b9031e7b667b9b97991b3aafa5fd
 
