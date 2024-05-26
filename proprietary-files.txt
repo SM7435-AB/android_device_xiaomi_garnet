@@ -1502,14 +1502,6 @@ vendor/lib64/vendor.qti.esepowermanager@1.1.so
 my_bigball/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml|58ddaa5bbff62eefd2d5c39900b7b29fd177def1
 my_bigball/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|4fb8d8ab0e1dbda1582361f48395f819367edb0a
 
-# FTM
-vendor/bin/ftmdaemon
-vendor/bin/myftm
-vendor/etc/ftm_test_config_parrot-qrd-snd-card
-vendor/lib/ftm_fm_lib.so
-vendor/lib64/ftm_fm_lib.so
-
-
 # Fingerprint
 odm/lib/hw/fingerprint.fpc_fod.so:odm/lib/hw/fingerprint.fpc_fod.default.so
 odm/lib/hw/fingerprint.goodix_fod.so:odm/lib/hw/fingerprint.goodix_fod.default.so
