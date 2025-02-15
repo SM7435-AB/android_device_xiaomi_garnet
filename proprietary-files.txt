@@ -280,6 +280,7 @@ vendor/lib64/vendor.qti.latency@2.1.so
 
 # Camera
 odm/etc/camera/camerabooster.json
+odm/etc/camera/camerascene.json|3e5743a712c5a1d0c217db7c1a5805290166f786
 odm/lib64/librfs_warp.so
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/bin/hw/vendor.xiaomi.hardware.quickcamera@1.0-service
@@ -1477,6 +1478,11 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
+# Euicc - XT2303-2_LYRIQ_RETIN_13_T2TLS33.3-62-3-3
+product/app/EuiccPartnerApp/EuiccPartnerApp.apk|612f6c88d0e8df564cf9ff28717a9a5bd782fe85
+product/etc/permissions/privapp-permissions-com.google.android.euicc.xml|ef99fe93aa2ed629fef39c3dcc4b07c597c1f469
+product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|e1f63b736410953ccf7591cfc3813e0360a9dfa4
+
 # FM
 vendor/bin/fm_qsoc_patches
 vendor/bin/fmconfig
@@ -1495,6 +1501,7 @@ vendor/bin/myftm
 vendor/etc/ftm_test_config_parrot-qrd-snd-card
 vendor/lib/ftm_fm_lib.so
 vendor/lib64/ftm_fm_lib.so
+
 
 # Fingerprint
 odm/lib/hw/fingerprint.fpc_fod.so:odm/lib/hw/fingerprint.fpc_fod.default.so
@@ -1708,6 +1715,12 @@ vendor/firmware/gmu_gen70000.bin
 # Graphics (Vulkan)
 vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
+
+# Hotword enrollment
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk|a25f5c76c8653a347b46b368e5d955b8818bb4db
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk|002d5b186596826df1dfc82fac2a5762aa34acae
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|99cfd80965c170f4885a7dd62c0eaad1a0c7840f
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|a418f5697951468fb93788b6e92d2912e7ae7149
 
 # IR
 vendor/lib/hw/consumerir.qcom.so
