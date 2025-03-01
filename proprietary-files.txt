@@ -1377,6 +1377,12 @@ vendor/lib/libhdr_tm.so|26f4e9235982e677383510572cd0d3fb6e146da2
 vendor/lib64/libhdr_backlight_adapter.so|57036c19938fe40e73e9b9e3d4c6a6073d7aa858
 vendor/lib64/libhdr_tm.so|b5bc48b34450b9031e7b667b9b97991b3aafa5fd
 
+# Display HDR dynamic
+vendor/lib/libhdrdynamic.so
+vendor/lib/libhdrdynamicootf.so
+vendor/lib64/libhdrdynamic.so
+vendor/lib64/libhdrdynamicootf.so
+
 # Display HWC - from eqs T1SQS33.15-11-137-10-2
 vendor/bin/qdcmss|801d4429210c1a4f8c01f6d91f172ff063c5c307
 vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
@@ -1413,8 +1419,6 @@ vendor/etc/display/advanced_sf_offsets.xml|29b6b0554d6393a8be90f52fce010946abd38
 vendor/etc/display/thermallevel_to_fps.xml|bc38035c8f41308fc25cc30969fbbf16ab86c43f
 vendor/lib/libdisplayqos.so|f03a2af80b2684fe5a4e5c68de6c8b8111841c4d
 vendor/lib/libdisplayskuutils.so|059996fdec758a68339905b568ac3cba0bb7f918
-vendor/lib/libhdrdynamic.so|e8a126848cd3d2833eeb6bf22a94003b67a923d1
-vendor/lib/libhdrdynamicootf.so|2b6a4244e2a432aa1dee8f07a1d5291fc277762f
 vendor/lib/libqseed3.so|37ca8e3c4d3dd1ef16072cd54ffcb33cd00f8a7a
 vendor/lib/librcmask.so|5883dcee92a31b16ca90bb83ad5d570d3865011f
 vendor/lib/libsdm-color.so|ed806a93cbb49c4bebd2507ac719a5750d4ed672
@@ -1425,8 +1429,6 @@ vendor/lib/libtestutils.so|553f68210d26fe9d245bdae8d77d5afd6f469150
 vendor/lib/libtinyxml2_1.so|d46a4b98a33a171438fe51a60886b6f0f3a8bf45
 vendor/lib64/libdisplayqos.so|7bb396a7497a1f7f856859bbb03bb190510f83a8
 vendor/lib64/libdisplayskuutils.so|0179f35a0d955432cacc7392d60f86c6b0b533db
-vendor/lib64/libhdrdynamic.so|df82be6d9d2efa33960bafea1b9f7bc035a58174
-vendor/lib64/libhdrdynamicootf.so|22884f0200f27814aae6d07e8fa6ba72d190b3f4
 vendor/lib64/libqseed3.so|9d0de1d3ca9d15160019171b9da8b26fa3591337
 vendor/lib64/librcmask.so|36919cfe71e1e6ab4e507f98dab320b7046d24c4
 vendor/lib64/libsdm-color.so|f3ce532eaa9276c3739098075c48dc80721af02d
